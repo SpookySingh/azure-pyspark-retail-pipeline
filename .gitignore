@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Data files
+data_lake/raw/
+data_lake/processed/
+
+# Logs
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db

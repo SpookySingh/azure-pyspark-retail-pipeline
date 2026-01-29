@@ -1,0 +1,14 @@
+# ---------------------------------
+# File paths
+# ---------------------------------
+paths:
+  customer_features_scaled: data_lake/processed/customer_features_scaled.csv
+  customer_segments: data_lake/processed/customer_segments.csv
+
+# ---------------------------------
+# Clustering configuration
+# ---------------------------------
+clustering:
+  k_min: 2
+  k_max: 10
+  final_k: 4
